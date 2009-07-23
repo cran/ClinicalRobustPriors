@@ -79,8 +79,8 @@ credible.int95.Normal.Normal.Sup<-E_Normal.Normal+qnorm(0.975,0,1)*sd_Normal.Nor
 credible.int95.Cauchy.Normal.Inf<-E_Cauchy.Normal-qnorm(0.975,0,1)*sd_Cauchy.Normal
 credible.int95.Cauchy.Normal.Sup<-E_Cauchy.Normal+qnorm(0.975,0,1)*sd_Cauchy.Normal
 
-credible.int95.likelihood.Inf<-ym-qnorm(0.975,0,1)*sqrt(sigma)
-credible.int95.likelihood.Sup<-ym+qnorm(0.975,0,1)*sqrt(sigma)
+credible.int95.likelihood.Inf<-ym-qnorm(0.975,0,1)*sigma
+credible.int95.likelihood.Sup<-ym+qnorm(0.975,0,1)*sigma
 
 #----------------------------------------------------
 # Figures
